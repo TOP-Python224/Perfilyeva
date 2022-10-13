@@ -1,6 +1,4 @@
-''' Программа запрашивает строку у пользователя и 
-оповещать его о том, является ли она словесным палиндромом, 
-игнорируя знаки препинания.'''
+"""Программа запрашивает строку у пользователя и оповещать его о том, является ли она словесным палиндромом, игнорируя знаки препинания."""
 
 from string import punctuation
 
@@ -12,6 +10,7 @@ for i in range(len(str_inp)//2):
         res = 'Не является палиндромом'
         break
 print(res)
-        
-#Введите строку > Is it crazy how saying sentences backwards creates backwards sentences saying how crazy it is?
-#Является палиндромом        
+
+
+# Введите строку > Is it crazy how saying sentences backwards creates backwards sentences saying how crazy it is?
+# Является палиндромом
